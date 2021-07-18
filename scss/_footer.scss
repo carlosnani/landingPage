@@ -1,0 +1,16 @@
+.footer{ 
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    &__left{
+        text-align: left;
+        color: #fff;        
+    }
+    &__right{
+        img {
+            width: 30px; height: 30px;
+            padding: 15px;        
+        }
+    }
+
+}

@@ -1,46 +1,238 @@
-.bgcolor-white {
-    background: #f0f0f0;
-}
-.contact {
-    margin: 0 auto;
-    padding: 60px 0;
-    color: rgb(255, 255, 255);
-    &__title {
-        text-align: center;
-        color: #000;
-        font-weight: 700;
-    } 
-    &__text {
-        text-align: center;
-        color: #414141;
-        margin: 70px 0;
-        text-transform: uppercase;
+
+/* Contact */
+@media only screen and (max-width: 412px){ 
+    .bgcolor-white {
+        background: #f0f0f0;
     }
-    &__form {
-        background: #ffffff; 
-        padding: 60px;
-    }
-    &__inputinside {
-        
-    }
-    &__input{
-        width: 410px;
-        padding: 20px;
-        margin-bottom: 46px;
-    }
-    &__input:last-child{
-        margin-left: 16px;
-    }
-    &__button { 
-        width: 100%;
-        height: 50px;
-        text-transform: uppercase;
-        background: #E9BE1F;
-        border: 0px solid #ccc;
-        transition: background 1s; 
-        &:hover {
-            background: #d3ac02;
+    .contact {
+        margin: 0 auto;
+        padding: 60px 0;
+        color: rgb(255, 255, 255);
+        &__title {
+            text-align: center;
+            color: #000;
+            font-weight: 700;
+        } 
+        &__text {
+            text-align: center;
+            color: #414141;
+            margin: 70px 0;
+            text-transform: uppercase;
+        }
+        &__form {
+            width: 80%;
+            background: #ffffff;
+            padding: 30px; 
         }
 
+        &__input{
+            width: calc(100% - 23px);
+            padding: 10px;
+            // padding: 20px 12px;
+            margin-bottom: 30px;
+        }
+        &__input:last-child{
+            margin-left: 0px;
+        }
+        &__button { 
+            width: 100%;
+            height: 50px;
+            text-transform: uppercase;
+            background: #E9BE1F;
+            border: 0px solid #ccc;
+            transition: background 1s; 
+            &:hover {
+                background: #d3ac02;
+            }
+        } 
     } 
-} 
+    
+}
+   
+@media only screen and (min-width: 413px) and (max-width: 620px) {
+    .bgcolor-white {
+        background: #f0f0f0;
+    }
+    .contact {
+        margin: 0 auto;
+        padding: 60px 0;
+        color: rgb(255, 255, 255);
+        &__title {
+            text-align: center;
+            color: #000;
+            font-weight: 700;
+        } 
+        &__text {
+            text-align: center;
+            color: #414141;
+            margin: 70px 0;
+            text-transform: uppercase;
+        }
+        &__form {
+            width: 280px;
+            background: #ffffff;
+            padding: 60px; 
+        }
+        &__input{
+            width: 93%;
+            padding: 20px 8px;
+            margin-bottom: 35px;            
+        }
+        &__button { 
+            width: 100%;
+            height: 50px;
+            text-transform: uppercase;
+            background: #E9BE1F;
+            border: 0px solid #ccc;
+            transition: background 1s; 
+            &:hover {
+                background: #d3ac02;
+            }
+    
+        } 
+    } 
+    
+}
+
+@media only screen and (min-width: 620px) and (max-width: 768px) {    
+    .bgcolor-white {
+        background: #f0f0f0;
+    }
+    .contact {
+        margin: 0 auto;
+        padding: 60px 0;
+        color: rgb(255, 255, 255);
+        &__title {
+            text-align: center;
+            color: #000;
+            font-weight: 700;
+        } 
+        &__text {
+            text-align: center;
+            color: #414141;
+            margin: 70px 0;
+            text-transform: uppercase;
+        }
+        &__form {
+            width: 500px;
+            background: #ffffff;
+            padding: 60px; 
+        }
+
+        &__input{
+            width: calc(45% - 11px);
+            padding: 20px 10px;
+            margin-bottom: 46px;
+        }
+        &__input:last-child{
+            margin-left: 20px;
+        }
+        &__button { 
+            width: 100%;
+            height: 50px;
+            text-transform: uppercase;
+            background: #E9BE1F;
+            border: 0px solid #ccc;
+            transition: background 1s; 
+            &:hover {
+                background: #d3ac02;
+            }
+    
+        } 
+    } 
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+    .bgcolor-white {
+        background: #f0f0f0;
+    }
+    .contact {
+        margin: 0 auto;
+        padding: 60px 0;
+        color: rgb(255, 255, 255);
+        &__title {
+            text-align: center;
+            color: #000;
+            font-weight: 700;
+        } 
+        &__text {
+            text-align: center;
+            color: #414141;
+            margin: 70px 0;
+            text-transform: uppercase;
+        }
+        &__form {
+            width: 660px;
+            background: #ffffff; 
+            padding: 60px;
+        }
+
+        &__input{
+            width: calc(45% - 18px);
+            padding: 20px 20px;
+            margin-bottom: 43px;
+        }
+        &__input:last-child{
+            margin-left: 10px;
+        }
+        &__button { 
+            width: 100%;
+            height: 50px;
+            text-transform: uppercase;
+            background: #E9BE1F;
+            border: 0px solid #ccc;
+            transition: background 1s; 
+            &:hover {
+                background: #d3ac02;
+            }
+    
+        } 
+    } 
+}
+
+@media only screen and (min-width: 1200px){
+    .bgcolor-white {
+        background: #f0f0f0;
+    }
+    .contact {
+        margin: 0 auto;
+        padding: 60px 0;
+        color: rgb(255, 255, 255);
+        &__title {
+            text-align: center;
+            color: #000;
+            font-weight: 700;
+        } 
+        &__text {
+            text-align: center;
+            color: #414141;
+            margin: 70px 0;
+            text-transform: uppercase;
+        }
+        &__form {
+            background: #ffffff; 
+            padding: 60px;
+        }
+        &__input{
+            width: 410px;
+            padding: 20px;
+            margin-bottom: 46px;
+        }
+        &__input:last-child{
+            margin-left: 16px;
+        }
+        &__button { 
+            width: 100%;
+            height: 50px;
+            text-transform: uppercase;
+            background: #E9BE1F;
+            border: 0px solid #ccc;
+            transition: background 1s; 
+            &:hover {
+                background: #d3ac02;
+            }
+    
+        } 
+    } 
+    
+}
