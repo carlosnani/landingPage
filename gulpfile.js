@@ -54,7 +54,7 @@ function browser() {
 }
 
 // Tarefa para iniciar o browser-sync
-gulp.task('browser-sync', browser);
+// gulp.task('browser-sync', browser);
 
 // Função de watch do Gulp
 function watch() {
