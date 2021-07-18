@@ -1,2 +1,2 @@
 # landingPage
-Landing Page created to Hiring Coders course. 
+Landing Page created to the Hiring Coders course. 
