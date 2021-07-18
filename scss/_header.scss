@@ -1,0 +1,43 @@
+.header {
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url("../img/header-background-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 8.4em;
+    &__right {
+        margin: 246px 0 0 0;
+    }
+    &__left {
+         margin: 103px 0 0 0;
+    }
+    &__text h1{
+        color: #fff;
+    }
+    &__textblock {
+        border-left: 2px #eecc30 solid;
+        text-transform: uppercase;
+        color: #c2c2c2;
+        padding: 0 0 0 20px;
+        margin: 30px 0;
+     }
+    &__button{
+       text-transform: uppercase;
+       color: #000;
+       background:#eecc30;
+       border: 0px solid #eecc30;
+       border-radius: 2px;
+       padding: 20px 60px;
+       transition: background 1s;        
+        &:hover{
+          background:#d3ac02;
+          border: 0px solid #d3ac02;
+        }
+    }
+    &__image{
+        width: 100%;       
+    }
+}
+

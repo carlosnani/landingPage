@@ -1,0 +1,77 @@
+@media only screen and (max-width: 412px){ 
+    .container {
+        width: $container-mobile;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width: 413px) and (max-width: 620px) {
+    .container {
+        width: $container-mobile;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media only screen and (min-width: 620px) and (max-width: 768px) {    
+    .container {
+        width: $container-tablet;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+    .container {
+        max-width: $container-tablet;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: wrap;
+    }  
+
+    .row{
+        display: flex;
+        flex-direction: row;        
+    }
+        
+    .col {
+        padding: 0 20px;
+    }
+
+    .col:first-child {
+        padding: 0px;
+    }
+
+    .col:last-child {
+        padding: 0px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .container {
+        max-width: $container;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }  
+    .row{
+        display: flex;
+        flex-direction: row;        
+    }
+    
+    .col {
+        padding: 0 20px;
+    }
+
+    .col:first-child {
+        padding: 0px;
+    }
+
+    .col:last-child {
+        padding: 0px;
+    }
+}
